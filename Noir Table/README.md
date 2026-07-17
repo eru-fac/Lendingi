@@ -59,7 +59,7 @@ A dark editorial restaurant landing page with menu highlights, private-room atmo
 ## 📁 Project Structure
 
 ```text
-noir-table/
+.
 ├── index.html
 ├── style.css
 ├── script.js
