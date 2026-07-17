@@ -8,10 +8,10 @@ Each project is stored in a separate folder and has its own README, screenshots 
 
 ## Projects
 
-| Atelier Veil | Fashion landing page | 
-| Black Signal Protocol | Sci-fi / tactical landing page | 
-| Noir Table | Restaurant landing page | 
-| Obsidian Frontier | Sci-fi game landing page | 
+- | Atelier Veil | Fashion landing page | 
+- | Black Signal Protocol | Sci-fi / tactical landing page | 
+- | Noir Table | Restaurant landing page | 
+- | Obsidian Frontier | Sci-fi game landing page | 
 
 ---
 
