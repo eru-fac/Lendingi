@@ -57,11 +57,8 @@ A static fashion landing page for a capsule clothing drop with a product wall, l
 
 Open `index.html` in a browser.
 
-You can also run it with a simple local server:
+You can also run it with a simple local server
 
-```bash
-npx serve .
-```
 
 ---
 
