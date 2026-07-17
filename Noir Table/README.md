@@ -8,7 +8,7 @@ A dark editorial restaurant landing page with menu highlights, private-room atmo
 
 ## 🌐 Live Demo
 
-👉 [Open Live Demo](https://your-demo-link.vercel.app)
+👉 [Open Live Demo](https://lendingi-kmhf.vercel.app)
 
 
 ---
