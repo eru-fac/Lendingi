@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noir Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Bebas+Neue&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="frame">
+    <a href="#top" class="logo">NOIR TABLE</a>
+    <nav>
+      <a href="#taste" data-ru="Вкус" data-uk="Смак" data-en="Taste">Вкус</a>
+      <a href="#plates" data-ru="Блюда" data-uk="Страви" data-en="Plates">Блюда</a>
+      <a href="#room" data-ru="Зал" data-uk="Зал" data-en="Room">Зал</a>
+      <a href="#book" data-ru="Бронь" data-uk="Бронь" data-en="Book">Бронь</a>
+    </nav>
+    <div class="lang">
+      <button data-lang="ru" type="button">RU</button>
+      <button data-lang="uk" type="button">UA</button>
+      <button data-lang="en" type="button">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="poster">
+      <div class="poster-bg">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1900&q=90" alt="fine dining table">
+      </div>
+      <div class="poster-title reveal">
+        <span class="kicker">DINNER HOUSE</span>
+        <h1><span>NOIR</span><span>TABLE</span></h1>
+      </div>
+      <aside class="side-note left-note"><span>OPEN</span><b>18:00—23:30</b></aside>
+      <aside class="side-note right-note"><span>ADDRESS</span><b>12 Rue Saint Noir</b></aside>
+      <div class="poster-copy reveal">
+        <p data-ru="Авторский ужин, тихий зал и винная карта для вечера, который не хочется заканчивать." data-uk="Авторська вечеря, тихий зал і винна карта для вечора, який не хочеться завершувати." data-en="Signature dinner, a quiet room and a wine list for an evening you do not want to end.">Авторский ужин, тихий зал и винная карта для вечера, который не хочется заканчивать.</p>
+        <a href="#book" data-ru="Забронировать" data-uk="Забронювати" data-en="Reserve">Забронировать</a>
+      </div>
+      <div class="scroll-mark"><i></i><span data-ru="листайте" data-uk="гортайте" data-en="scroll">листайте</span></div>
+    </section>
+
+    <section id="taste" class="taste">
+      <div class="taste-word">TASTE</div>
+      <div class="taste-center reveal">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=90" alt="signature plate">
+      </div>
+      <div class="taste-copy reveal">
+        <span>01</span>
+        <p data-ru="Три акцента вечера: огонь, соус и текстура. Блюда не перегружены — каждый вкус остаётся чистым." data-uk="Три акценти вечора: вогонь, соус і текстура. Страви не перевантажені — кожен смак залишається чистим." data-en="Three accents define the evening: fire, sauce and texture. The plates stay focused, each flavor kept clean.">Три акцента вечера: огонь, соус и текстура. Блюда не перегружены — каждый вкус остаётся чистым.</p>
+      </div>
+      <div class="taste-list reveal">
+        <span>charcoal</span><span>aged parmesan</span><span>black cod</span><span>dark cherry</span>
+      </div>
+    </section>
+
+    <section id="plates" class="plates">
+      <div class="plates-sticky">
+        <div class="plates-head">
+          <span>MENU SELECTION</span>
+          <h2 data-ru="Не список блюд. Настроение вечера." data-uk="Не список страв. Настрій вечора." data-en="Not a list of dishes. The mood of the evening.">Не список блюд. Настроение вечера.</h2>
+        </div>
+        <div class="plate-strip">
+          <article class="plate-card">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=900&q=90" alt="plate">
+            <div><small>01</small><h3>Black Cod</h3><p data-ru="мисо · уголь · зелёное масло" data-uk="місо · вугілля · зелена олія" data-en="miso · charcoal · green oil">мисо · уголь · зелёное масло</p><strong>$34</strong></div>
+          </article>
+          <article class="plate-card tall">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=90" alt="plate">
+            <div><small>02</small><h3>Duck Breast</h3><p data-ru="вишня · перец · корень сельдерея" data-uk="вишня · перець · корінь селери" data-en="cherry · pepper · celery root">вишня · перец · корень сельдерея</p><strong>$39</strong></div>
+          </article>
+          <article class="plate-card">
+            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=90" alt="plate">
+            <div><small>03</small><h3>Truffle Risotto</h3><p data-ru="рис · трюфель · пармезан" data-uk="рис · трюфель · пармезан" data-en="rice · truffle · parmesan">рис · трюфель · пармезан</p><strong>$29</strong></div>
+          </article>
+          <article class="plate-card tall">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=90" alt="dessert">
+            <div><small>04</small><h3>Dark Chocolate</h3><p data-ru="соль · оливковое масло · какао" data-uk="сіль · оливкова олія · какао" data-en="salt · olive oil · cacao">соль · оливковое масло · какао</p><strong>$14</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="room" class="room">
+      <div class="room-grid">
+        <div class="room-title reveal"><span>PRIVATE ROOM</span><h2 data-ru="Свет ниже. Разговор тише. Вечер длиннее." data-uk="Світло нижче. Розмова тихіша. Вечір довший." data-en="Lower light. Quieter talk. A longer evening.">Свет ниже. Разговор тише. Вечер длиннее.</h2></div>
+        <div class="room-photo one reveal"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=90" alt="restaurant room"></div>
+        <div class="room-photo two reveal"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=90" alt="restaurant interior"></div>
+        <div class="room-text reveal"><p data-ru="В зале всего 42 места. Столы стоят на расстоянии, свет не бьёт в глаза, музыка остаётся фоном." data-uk="У залі лише 42 місця. Столи стоять на відстані, світло не бʼє в очі, музика лишається фоном." data-en="Only 42 seats. Tables are spaced apart, the light stays soft and music remains in the background.">В зале всего 42 места. Столы стоят на расстоянии, свет не бьёт в глаза, музыка остаётся фоном.</p></div>
+      </div>
+    </section>
+
+    <section id="book" class="book">
+      <div class="book-bg-text">RESERVE</div>
+      <div class="book-card reveal">
+        <div class="book-copy"><span>TABLE REQUEST</span><h2 data-ru="Стол на вечер" data-uk="Стіл на вечір" data-en="A table tonight">Стол на вечер</h2><p data-ru="Оставьте контакты и время. Администратор подтвердит бронь и предложит подходящий стол." data-uk="Залиште контакти й час. Адміністратор підтвердить бронь і запропонує відповідний стіл." data-en="Leave your contacts and time. The host will confirm the reservation and suggest the right table.">Оставьте контакты и время. Администратор подтвердит бронь и предложит подходящий стол.</p></div>
+        <form>
+          <input type="text" data-ru="Ваше имя" data-uk="Ваше імʼя" data-en="Your name" placeholder="Ваше имя">
+          <input type="tel" data-ru="Телефон" data-uk="Телефон" data-en="Phone" placeholder="Телефон">
+          <div class="form-row"><input type="text" data-ru="Время" data-uk="Час" data-en="Time" placeholder="Время"><input type="text" data-ru="Гостей" data-uk="Гостей" data-en="Guests" placeholder="Гостей"></div>
+          <button type="button" data-ru="Отправить" data-uk="Надіслати" data-en="Send">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-book"><strong>Noir Table</strong><a href="#book" data-ru="Бронь" data-uk="Бронь" data-en="Book">Бронь</a></div>
+  <script src="script.js"></script>
+</body>
+</html>
