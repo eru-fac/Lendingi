@@ -8,7 +8,7 @@ A static sci‑fi landing page with a dark tactical interface, mission blocks, a
 
 ## 🌐 Live Demo
 
-👉 [Open Live Demo](https://your-demo-link.vercel.app)
+👉 [Open Live Demo](https://lendingi-7c6m.vercel.app)
 
 ---
 
