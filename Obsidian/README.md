@@ -8,7 +8,7 @@ A static landing page concept for a story-driven sci‑fi action game with hero 
 
 ## 🌐 Live Demo
 
-👉 [Open Live Demo](https://your-demo-link.vercel.app)
+👉 [Open Live Demo](https://lendingi-ek6k.vercel.app)
 
 
 ---
