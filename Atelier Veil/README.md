@@ -8,10 +8,9 @@ A static fashion landing page for a capsule clothing drop with a product wall, l
 
 ## 🌐 Live Demo
 
-👉 [Open Live Demo](https://your-demo-link.vercel.app)
+👉 [Open Live Demo](https://lendingi-kp4n0ot17-eruweb.vercel.app)
 
-> Optional: replace this link after deploying the project.  
-> If you do not deploy it yet, you can remove this section or leave it as `Coming soon`.
+
 
 ---
 
