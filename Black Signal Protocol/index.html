@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Signal Protocol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="boot-screen" id="bootScreen">
+    <div class="boot-box">
+      <span class="boot-label">INITIALIZING // BLACK SIGNAL PROTOCOL</span>
+      <div class="boot-line"><i></i></div>
+      <p>LINKING ORBITAL COMMAND...</p>
+    </div>
+  </div>
+
+  <div class="noise"></div>
+  <div class="scan"></div>
+  <div class="cursor-glow"></div>
+
+  <aside class="side-rail">
+    <div class="rail-logo">BSP</div>
+    <div class="rail-dots">
+      <a href="#hero"></a>
+      <a href="#breach"></a>
+      <a href="#loadout"></a>
+      <a href="#logs"></a>
+      <a href="#access"></a>
+    </div>
+    <div class="rail-bottom">2079</div>
+  </aside>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <span>BLACK SIGNAL PROTOCOL</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#breach" data-ru="Прорыв" data-uk="Прорив" data-en="Breach">Прорыв</a>
+      <a href="#loadout" data-ru="Системы" data-uk="Системи" data-en="Systems">Системы</a>
+      <a href="#logs" data-ru="Логи" data-uk="Логи" data-en="Logs">Логи</a>
+      <a href="#access" data-ru="Доступ" data-uk="Доступ" data-en="Access">Доступ</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <div class="lang-switch">
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="uk">UA</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <a class="topbar-btn" href="#access" data-ru="Запросить код" data-uk="Запросити код" data-en="Request code">Запросить код</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero panel">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-a"></div>
+      <div class="hero-glow hero-glow-b"></div>
+
+      <div class="hero-left reveal">
+        <span class="eyebrow">AAA CINEMATIC TACTICAL SCI-FI</span>
+        <h1>
+          <span data-ru="BLACK" data-uk="BLACK" data-en="BLACK">BLACK</span>
+          <span class="outline" data-ru="SIGNAL" data-uk="SIGNAL" data-en="SIGNAL">SIGNAL</span>
+          <span data-ru="PROTOCOL" data-uk="PROTOCOL" data-en="PROTOCOL">PROTOCOL</span>
+        </h1>
+        <p
+          data-ru="Жёсткий sci-fi боевик про зачистку станции, искажённый сигнал и команду, которая спускается в мёртвую зону, где каждый этаж работает как отдельный боевой сценарий."
+          data-uk="Жорсткий sci-fi бойовик про зачистку станції, спотворений сигнал і команду, що спускається в мертву зону, де кожен рівень працює як окремий бойовий сценарій."
+          data-en="A hard-edged sci-fi action game about a station breach, a corrupted signal and a squad descending into a dead zone where every level behaves like a separate combat scenario.">
+          Жёсткий sci-fi боевик про зачистку станции, искажённый сигнал и команду, которая спускается в мёртвую зону, где каждый этаж работает как отдельный боевой сценарий.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#access" class="btn-primary" data-ru="Открыть доступ" data-uk="Відкрити доступ" data-en="Open access">Открыть доступ</a>
+          <a href="#breach" class="btn-secondary" data-ru="Смотреть режим" data-uk="Дивитися режим" data-en="View mode">Смотреть режим</a>
+        </div>
+
+        <div class="hero-tags">
+          <span>PS5</span>
+          <span>PC</span>
+          <span>Xbox Series</span>
+          <span data-ru="1-4 игрока" data-uk="1-4 гравці" data-en="1-4 players">1-4 игрока</span>
+        </div>
+      </div>
+
+      <div class="hero-center reveal">
+        <div class="orbital-shell">
+          <div class="orbital-core"></div>
+          <div class="orbital-ring ring-a"></div>
+          <div class="orbital-ring ring-b"></div>
+          <div class="orbital-ring ring-c"></div>
+          <div class="orbital-slice"></div>
+          <div class="orbital-ping p1"></div>
+          <div class="orbital-ping p2"></div>
+          <div class="orbital-ping p3"></div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="info-block accent">
+          <small data-ru="статус ядра" data-uk="статус ядра" data-en="core status">статус ядра</small>
+          <b>OVERRIDE</b>
+          <p data-ru="боевой контур активирован" data-uk="бойовий контур активований" data-en="combat loop enabled">боевой контур активирован</p>
+        </div>
+        <div class="info-block">
+          <small data-ru="глубина сектора" data-uk="глибина сектору" data-en="sector depth">глубина сектора</small>
+          <b>12 LEVELS</b>
+          <p data-ru="каждый уровень — отдельный рейд" data-uk="кожен рівень — окремий рейд" data-en="each level is its own raid">каждый уровень — отдельный рейд</p>
+        </div>
+        <div class="info-block">
+          <small data-ru="режим угрозы" data-uk="режим загрози" data-en="threat mode">режим угрозы</small>
+          <b>RED VEIL</b>
+          <p data-ru="сигнал подменяет маршрут" data-uk="сигнал підміняє маршрут" data-en="the signal rewrites the route">сигнал подменяет маршрут</p>
+        </div>
+      </div>
+
+      <div class="hero-marquee">
+        <div class="marquee-track">
+          <span>TACTICAL RAIDS</span>
+          <span>DEAD ZONE DESCENT</span>
+          <span>BLACK SIGNAL</span>
+          <span>CINEMATIC COMBAT</span>
+          <span>TACTICAL RAIDS</span>
+          <span>DEAD ZONE DESCENT</span>
+          <span>BLACK SIGNAL</span>
+          <span>CINEMATIC COMBAT</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="breach" class="breach panel">
+      <div class="section-head reveal">
+        <span class="eyebrow">MISSION FLOW</span>
+        <h2 data-ru="Не обычные карточки. Вертикальный прорыв по уровням станции." data-uk="Не звичайні картки. Вертикальний прорив рівнями станції." data-en="Not ordinary cards. A vertical breach through the station levels.">Не обычные карточки. Вертикальный прорыв по уровням станции.</h2>
+      </div>
+
+      <div class="shaft reveal">
+        <div class="shaft-line"></div>
+
+        <article class="shaft-room left">
+          <span>LEVEL 01</span>
+          <h3 data-ru="Внешний шлюз" data-uk="Зовнішній шлюз" data-en="Outer lock">Внешний шлюз</h3>
+          <p data-ru="Быстрый штурм, перегрузка щитов и вход в станцию." data-uk="Швидкий штурм, перевантаження щитів і вхід у станцію." data-en="Fast assault, shield overload and entry into the station.">Быстрый штурм, перегрузка щитов и вход в станцию.</p>
+        </article>
+
+        <article class="shaft-room right">
+          <span>LEVEL 04</span>
+          <h3 data-ru="Лабораторный пояс" data-uk="Лабораторний пояс" data-en="Research belt">Лабораторный пояс</h3>
+          <p data-ru="Коридоры с меняющейся геометрией и живой системой защиты." data-uk="Коридори зі змінною геометрією та живою системою захисту." data-en="Corridors with shifting geometry and a living defense system.">Коридоры с меняющейся геометрией и живой системой защиты.</p>
+        </article>
+
+        <article class="shaft-room left">
+          <span>LEVEL 08</span>
+          <h3 data-ru="Мёртвая ферма" data-uk="Мертва ферма" data-en="Dead farm">Мёртвая ферма</h3>
+          <p data-ru="Тьма, аварийное питание и массивный механический противник." data-uk="Темрява, аварійне живлення і масивний механічний противник." data-en="Darkness, emergency power and a massive mechanical enemy.">Тьма, аварийное питание и массивный механический противник.</p>
+        </article>
+
+        <article class="shaft-room right">
+          <span>LEVEL 12</span>
+          <h3 data-ru="Ядро сигнала" data-uk="Ядро сигналу" data-en="Signal core">Ядро сигнала</h3>
+          <p data-ru="Финальная зона, где станция буквально спорит с игроком за контроль." data-uk="Фінальна зона, де станція буквально сперечається з гравцем за контроль." data-en="The final zone where the station literally fights the player for control.">Финальная зона, где станция буквально спорит с игроком за контроль.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="loadout" class="loadout panel">
+      <div class="section-head reveal">
+        <span class="eyebrow">LOADOUT DECK</span>
+        <h2 data-ru="Экран систем как в игре: оружие, классы, схемы доступа." data-uk="Екран систем як у грі: зброя, класи, схеми доступу." data-en="A systems deck like in-game: weapons, classes and access schemes.">Экран систем как в игре: оружие, классы, схемы доступа.</h2>
+      </div>
+
+      <div class="deck reveal">
+        <article class="deck-card huge">
+          <small>ASSAULT FRAME</small>
+          <h3 data-ru="Штурмовой контур" data-uk="Штурмовий контур" data-en="Assault frame">Штурмовой контур</h3>
+          <p data-ru="Мощный ближний бой, рывки и прорыв линий обороны." data-uk="Потужний ближній бій, ривки та прорив ліній оборони." data-en="Heavy close combat, dashes and frontline breach.">Мощный ближний бой, рывки и прорыв линий обороны.</p>
+          <div class="meter"><i style="--v:86%"></i></div>
+        </article>
+
+        <article class="deck-card">
+          <small>SCOUT</small>
+          <h3 data-ru="Призрачный ход" data-uk="Примарний хід" data-en="Ghost route">Призрачный ход</h3>
+          <p data-ru="Скрытые проходы, дальние метки и тихое снятие угроз." data-uk="Приховані проходи, дальні мітки та тихе зняття загроз." data-en="Hidden paths, long-range marks and silent threat removal.">Скрытые проходы, дальние метки и тихое снятие угроз.</p>
+        </article>
+
+        <article class="deck-card">
+          <small>ENGINEER</small>
+          <h3 data-ru="Нарушение протокола" data-uk="Порушення протоколу" data-en="Protocol breach">Нарушение протокола</h3>
+          <p data-ru="Взлом дверей, дронов и оборонительных сетей." data-uk="Злам дверей, дронів і оборонних мереж." data-en="Hack doors, drones and defense meshes.">Взлом дверей, дронов и оборонительных сетей.</p>
+        </article>
+
+        <article class="deck-card wide-card">
+          <div class="pulse-grid"></div>
+          <small>SYSTEM MATRIX</small>
+          <h3 data-ru="Сборка отряда влияет на ритм всего рейда" data-uk="Збірка загону впливає на ритм усього рейду" data-en="Squad composition changes the rhythm of the entire raid">Сборка отряда влияет на ритм всего рейда</h3>
+          <p data-ru="Каждый класс открывает собственные развилки, боевые окна и шансы на альтернативный финал." data-uk="Кожен клас відкриває власні розвилки, бойові вікна та шанси на альтернативний фінал." data-en="Each class opens its own branches, combat windows and chances for an alternate ending.">Каждый класс открывает собственные развилки, боевые окна и шансы на альтернативный финал.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="logs" class="logs panel">
+      <div class="logs-left reveal">
+        <span class="eyebrow">SIGNAL LOGS</span>
+        <h2 data-ru="Тревожный лог-блок вместо стандартной галереи." data-uk="Тривожний лог-блок замість стандартної галереї." data-en="A tense signal-log block instead of a standard gallery.">Тревожный лог-блок вместо стандартной галереи.</h2>
+        <p
+          data-ru="Живые записи, сбои связи и телеметрия создают ощущение реального вторжения. Этот экран работает как атмосфера и как сильный визуальный модуль."
+          data-uk="Живі записи, збої звʼязку й телеметрія створюють відчуття реального вторгнення. Цей екран працює як атмосфера і як сильний візуальний модуль."
+          data-en="Live recordings, communication failures and telemetry create a sense of real intrusion. This screen works as atmosphere and as a strong visual module.">
+          Живые записи, сбои связи и телеметрия создают ощущение реального вторжения. Этот экран работает как атмосфера и как сильный визуальный модуль.
+        </p>
+      </div>
+
+      <div class="terminal-wall reveal">
+        <div class="terminal-header">
+          <span></span><span></span><span></span>
+          <b>LIVE FEED / ORBIT-12</b>
+        </div>
+
+        <div class="log-stream">
+          <div class="log-row"><em>00:12:48</em><span>UNSEALED OUTER LOCK // ACCESS GRANTED</span></div>
+          <div class="log-row warning"><em>00:15:06</em><span>BLACK SIGNAL DETECTED IN SUBCHANNEL_04</span></div>
+          <div class="log-row"><em>00:18:31</em><span>RELAY DRONES DEPLOYED TO SHAFT 08</span></div>
+          <div class="log-row danger"><em>00:21:11</em><span>COMMAND ECHO CONFLICT // SOURCE UNKNOWN</span></div>
+          <div class="log-row"><em>00:24:54</em><span>BIOMETRIC GATE UNLOCKED BY ENGINEER CLASS</span></div>
+          <div class="log-row warning"><em>00:29:39</em><span>VISUAL FIELD DISTORTION // SWITCHING TO THERMAL</span></div>
+        </div>
+
+        <div class="monitor-grid">
+          <div class="monitor-card">
+            <small>THREAT INDEX</small>
+            <b>89%</b>
+          </div>
+          <div class="monitor-card">
+            <small>SQUAD LINK</small>
+            <b>STABLE</b>
+          </div>
+          <div class="monitor-card">
+            <small>POWER CORE</small>
+            <b>62%</b>
+          </div>
+          <div class="monitor-card">
+            <small>EXTRACT</small>
+            <b>LOCKED</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="access" class="access panel">
+      <div class="access-shell reveal">
+        <div class="access-copy">
+          <span class="eyebrow">SECURED TRANSMISSION</span>
+          <h2 data-ru="Запрос на доступ к закрытому дропу" data-uk="Запит на доступ до закритого дропу" data-en="Request access to the closed drop">Запрос на доступ к закрытому дропу</h2>
+          <p
+            data-ru="Оставь данные — получишь материалы по релизу, изданиям и внутреннему брифингу команды."
+            data-uk="Залиши дані — отримаєш матеріали щодо релізу, видань і внутрішнього брифінгу команди."
+            data-en="Leave your details and receive release materials, edition info and the internal team briefing.">
+            Оставь данные — получишь материалы по релизу, изданиям и внутреннему брифингу команды.
+          </p>
+        </div>
+
+        <form class="access-form">
+          <label>
+            <span data-ru="Позывной" data-uk="Позивний" data-en="Call sign">Позывной</span>
+            <input type="text" placeholder="Operator Name">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="you@email.com">
+          </label>
+          <label>
+            <span data-ru="Платформа" data-uk="Платформа" data-en="Platform">Платформа</span>
+            <select>
+              <option>PC</option>
+              <option>PS5</option>
+              <option>Xbox Series</option>
+            </select>
+          </label>
+          <button type="button" data-ru="Отправить запрос" data-uk="Надіслати запит" data-en="Send request">Отправить запрос</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
